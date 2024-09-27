@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shuma Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="nav-upper">
+        <div class="nu-location">
+          <p>
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            1200 Main St. Santa Rosa, CA 93541
+          </p>
+        </div>
+
+        <nav>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="nav-lower">
+        <div>
+          <a href="#">
+            <img src="./assets/logo.png.webp" class="Shuna logo" alt="Logo" />
+          </a>
+        </div>
+
+        <nav class="nl-links">
+          <ul id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Company</a></li>
+            <li class="shop">
+              <a href="#">
+                Shop
+                <span>
+                  <i class="bi bi-chevron-down chevron-d"></i>
+                </span>
+              </a>
+
+              <div class="shop-nav">
+                <div class="container-fluid shop-nav-con">
+                  <div class="row">
+                    <div class="col">
+                      <div class="shop-col-1">
+                        <h3>
+                          Supercharge your <br />
+                          Commute
+                        </h3>
+                        <p>
+                          See our most popular and top selling picks, find hard
+                          to obtain parts and components for all the major
+                          brands.
+                        </p>
+                        <a href="#">
+                          Shop All Bikes
+                          <span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="shop-col-2">
+                        <h5>Shop by Category</h5>
+                        <ul>
+                          <li>
+                            <span
+                              ><i aria-hidden="true" class="fas fa-bicycle"></i
+                            ></span>
+                            All Bikes
+                          </li>
+                          <li>
+                            <span
+                              ><i aria-hidden="true" class="fas fa-bolt"></i
+                            ></span>
+                            Electric
+                          </li>
+                          <li>
+                            <span
+                              ><i aria-hidden="true" class="fas fa-city"></i
+                            ></span>
+                            Urban
+                          </li>
+                          <li>
+                            <span
+                              ><i aria-hidden="true" class="fas fa-mountain"></i
+                            ></span>
+                            Mountain
+                          </li>
+                          <li>
+                            <span
+                              ><i
+                                aria-hidden="true"
+                                class="fas fa-tachometer-alt"
+                              ></i
+                            ></span>
+                            Accessories
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="shop-col-3">
+                        <h5>Explore</h5>
+                        <ul>
+                          <li>
+                            <span
+                              ><i aria-hidden="true" class="fas fa-home"></i
+                            ></span>
+                            Bike Slider
+                          </li>
+                          <li>
+                            <span
+                              ><i
+                                aria-hidden="true"
+                                class="fas fa-warehouse"
+                              ></i
+                            ></span>
+                            Our Company
+                          </li>
+                          <li>
+                            <span
+                              ><i
+                                aria-hidden="true"
+                                class="far fa-life-ring"
+                              ></i
+                            ></span>
+                            Get Support
+                          </li>
+                          <li>
+                            <span
+                              ><i
+                                aria-hidden="true"
+                                class="far fa-newspaper"
+                              ></i
+                            ></span>
+                            Latest News
+                          </li>
+                          <li>
+                            <span
+                              ><i aria-hidden="true" class="fas fa-user"></i
+                            ></span>
+                            My Account
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="pages">
+              <a href="#">Pages <i class="bi bi-chevron-down chevron-d"></i></a>
+              <div class="page-panel">
+                <ul class="pages-nav">
+                  <li>
+                    <a href="#">
+                      <span
+                        ><i
+                          class="fas fa-home boosted-elements-fa-icon-custom"
+                        ></i
+                      ></span>
+                      Bike Slider
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span
+                        ><i
+                          class="fas fa-user-circle boosted-elements-fa-icon-custom"
+                        ></i
+                      ></span>
+                      My Account
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span
+                        ><i
+                          class="fas fa-shopping-cart boosted-elements-fa-icon-custom"
+                        ></i
+                      ></span>
+                      Cart
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span
+                        ><i
+                          class="fas fa-credit-card boosted-elements-fa-icon-custom"
+                        ></i
+                      ></span>
+                      Checkout
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-buttons">
+           <div class="nl-cart">
+             <button class="cart-btn">
+               <span class="cart-amount">$0</span>
+               <span class="cart-icon"><i class="bi bi-bag"></i></span>
+             </button>
+   
+             <div class="cart-stats">
+               <div class="cart-nav">
+                 <p>No products in the cart.</p>
+                 <div class="mt-4">
+                   <button class="view-cart-btn">View cart</button>
+                   <p class="subtotal-text">Subtotal : <span>$0</span></p>
+                 </div>
+               </div>
+             </div>
+           </div>
+   
+           <div class="hamburger-menu">
+            <button class="hm-bars show">
+               <i class="fa-solid fa-bars"></i>
+            </button>
+            
+            <button class="hm-xmark">
+               <i class="fa-solid fa-xmark"></i>
+            </button>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="heroCorousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-pause="false"
+    >
+      <div class="carousel-indicators">
+         <button type="button" data-bs-target="#heroCorousel" data-bs-slide-to="0" class="active circle-indicator" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#heroCorousel" data-bs-slide-to="1" class="circle-indicator" aria-label="Slide 2"></button>
+         <button type="button" data-bs-target="#heroCorousel" data-bs-slide-to="2" class="circle-indicator" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active corousel-pos" data-bs-interval="7000">
+          <img
+            src="./assets/hero-outdoor.jpg"
+            class="d-block w-100 corousel-image"
+            alt="Corousel image"
+          />
+          <div class="hero-img-text">
+            <div class="text-head">
+              <h2>Ride without limits</h2>
+              <span>High Performance</span>
+              <span>Electric Bicycles</span>
+            </div>
+
+            <p>Performance built to handle any terrain and riding style</p>
+
+            <a>
+              Shop Bikes
+              <span>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="7000">
+          <img
+            src="./assets//hero-beach.jpg"
+            class="d-block w-100 corousel-image"
+            alt="Corousel image"
+          />
+          <div class="hero-img-text">
+            <div class="text-head">
+              <h2>California's Premier</h2>
+              <span>Electric Bicycle</span>
+              <span>Superstore</span>
+            </div>
+
+            <p>Performance built to handle any terrain and riding style</p>
+
+            <a>
+              Shop Bikes
+              <span>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="7000">
+          <img
+            src="./assets//hero-2-darkened.jpg"
+            class="d-block w-100 corousel-image"
+            alt="Corousel image"
+          />
+          <div class="hero-img-text">
+            <div class="text-head">
+              <h2>Bicycle Servicing</h2>
+              <span>On-Site Skilled</span>
+              <span>Bike Mechanics</span>
+            </div>
+
+            <p>Performance built to handle any terrain and riding style</p>
+
+            <a>
+              Shop Bikes
+              <span>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCorousel"
+        data-bs-slide="prev"
+      >
+        <i class="bi bi-chevron-left"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCorousel"
+        data-bs-slide="next"
+      >
+        <i class="bi bi-chevron-right"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <footer class="mt-auto">
+      <div class="container-fluid">
+        <div class="row text-center row1">
+          <div class="col-md-4 row1-col">
+            <span>
+              <i aria-hidden="true" class="fas fa-box-open"></i>
+            </span>
+            Free Shipping On Orders Over $50
+          </div>
+          <div class="col-md-4 row1-col">
+            <span>
+              <i aria-hidden="true" class="fas fa-comment-dollar"></i>
+            </span>
+            60 Day Money Back Guarantee
+          </div>
+          <div class="col-md-4 row1-col">
+            <span>
+              <i aria-hidden="true" class="far fa-life-ring"></i>
+            </span>
+            24/7 Live Support Team
+          </div>
+        </div>
+
+        <div class="row row2">
+          <div class="col-md-4 row2-col1">
+            <div class="foot-logo">
+              <a href="#">
+                <img
+                  src="./assets/logo.png.webp"
+                  class="Shuna logo"
+                  alt="Logo"
+                />
+              </a>
+            </div>
+            <div class="row2-col1-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+
+            <div class="md-text-center">
+              <nav>
+                <ul class="foot-social-links">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="col-md-8 row2-col2">
+            <div class="row">
+              <div class="col-md-4 r2c2-info">
+                <h5>Shop</h5>
+                <ul>
+                  <li><a href="#">All Bikes</a></li>
+                  <li><a href="#">Electric</a></li>
+                  <li><a href="#">Urban</a></li>
+                  <li><a href="#">Mountain</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-4 r2c2-info">
+                <h5>Company</h5>
+                <ul>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Get Support</a>
+                  </li>
+                  <li>
+                    <a href="#">Latest News</a>
+                  </li>
+                  <li>
+                    <a href="#">My Account</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-4 r2c2-info">
+                <h5>Contact</h5>
+                <ul>
+                  <li>
+                    <span class="align-top"
+                      ><i
+                        aria-hidden="true"
+                        class="fas fa-map-marker-alt pt-1"
+                      ></i
+                    ></span>
+                    <p class="m-0 d-inline-block">
+                      1200 Main St.<br />Santa Rosa, CA 93541
+                    </p>
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        aria-hidden="true"
+                        class="fas fa-phone-alt mirror-x"
+                      ></i
+                    ></span>
+                    +1 (888) 123 - 4567
+                  </li>
+                  <li>
+                    <span
+                      ><i aria-hidden="true" class="far fa-envelope"></i
+                    ></span>
+                    <a href="mailto:help@shuma-theme.com">
+                      help@shuma-theme.com
+                    </a>
+                  </li>
+                  <li>
+                    <span><i aria-hidden="true" class="far fa-clock"></i></span>
+                    Mon - Sun: 8AM - 8PM
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-3">
+          <div class="col-md-6 row3-col1">
+            All Rights Reserved. Developed by YourCompanyHere
+          </div>
+          <div class="col-md-6 row3-col2">
+            <ul>
+              <li><i class="fa-brands fa-google-pay"></i></li>
+              <li><i class="fa-brands fa-paypal"></i></li>
+              <li><i class="fa-brands fa-cc-visa"></i></li>
+              <li><i class="fa-brands fa-cc-mastercard"></i></li>
+              <li><i class="fa-brands fa-cc-discover"></i></li>
+              <li><i class="fa-brands fa-cc-amex"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
