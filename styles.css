@@ -715,6 +715,7 @@ ul {
     border-radius: 0.625rem;
     overflow: hidden;
     transition: height 0.3s ease-in-out;
+    z-index: 99;
   }
 
   .nl-links.open {
@@ -790,7 +791,7 @@ ul {
     margin-left: auto;
     justify-content: center;
   }
-  
+
   .corousel-image {
     min-height: 80vh;
   }
@@ -798,16 +799,16 @@ ul {
   .row3-col1 {
     text-align: center;
   }
-  
+
   .row3-col2 ul {
     margin: 1rem auto;
     padding: 0;
   }
-  
+
   .row3-col2 ul li {
     padding: 0 1rem;
   }
-  
+
   .hero-img-text {
     top: 14rem;
     margin-left: 1rem;
@@ -821,7 +822,7 @@ ul {
   }
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .hero-img-text {
     margin-left: 1rem;
   }
