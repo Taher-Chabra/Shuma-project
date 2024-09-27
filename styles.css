@@ -793,7 +793,7 @@ ul {
   }
 
   .corousel-image {
-    min-height: 80vh;
+    min-height: 75vh;
   }
 
   .row3-col1 {
@@ -827,6 +827,10 @@ ul {
     margin-left: 1rem;
   }
 
+  .hero-img-text p {
+    font-size: 0.84rem;
+  }
+
   .text-head h2 {
     font-size: 1.8rem;
   }
@@ -849,6 +853,10 @@ ul {
 
   .row2-col2 {
     padding-left: 1.1rem;
+  }
+
+  .row2-col1-text {
+    font-size: 0.9rem;
   }
 }
 
